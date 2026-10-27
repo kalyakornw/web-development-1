@@ -1,1 +1,60 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Post-it Board</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <h1>My Post-it Board</h1>
+        <p>Organize your tasks, ideas and reminders.</p>
+    </header>
+
+    <main class="container">
+        <section class="note-form">
+            <h2>Create a New Note</h2>
+
+            <form id="noteForm">
+                <label for="noteTitle">Title</label>
+                <input type="text" id="noteTitle"
+                    placeholder="Enter your task title" required>
+
+                <label for="noteDescription">Description</label>
+                <textarea id="noteDescription"
+                    placeholder="Write your note here..." required></textarea>
+
+                <label for="noteColor">Note color</label>
+                <select id="noteColor">
+                    <option value="yellow">Yellow</option>
+                    <option value="pink">Pink</option>
+                    <option value="green">Green</option>
+                    <option value="blue">Blue</option>
+                </select>
+
+                <button type="submit" id="submitButton">Add Note</button>
+            </form>
+        </section>
+
+        <section class="board">
+            <h2>My Notes</h2>
+
+            <div class="note-stats">
+                <p>Total notes: <span id="totalNotes">0</span></p>
+                <p>Completed: <span id="completedNotes">0</span></p>
+            </div>
+
+            <div id="notesContainer" class="notes-container">
+                <!-- JavaScript will display notes here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>My Post-it Board | Stay organized, one note at a time.</p>
+    </footer>
+</body>
+</html>
