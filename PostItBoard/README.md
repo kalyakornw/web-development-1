@@ -18,7 +18,7 @@ My Post-it Board is a simple web application that helps users organize their dai
 
 ### Wireframe / sketch
 
-Add an image of the planned application wireframe here.
+![My Post-it Board wireframe](img/wireframe.png)
 
 ## Web links
 
@@ -54,7 +54,7 @@ Add an image of the planned application wireframe here.
 
 ## Screenshots
 
-Add a screenshot of the working application here.
+![Screenshot of My Post-it Board](img/screenshot.png)
 
 ## Known issues / limitations
 
