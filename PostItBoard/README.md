@@ -24,7 +24,7 @@ My Post-it Board is a simple web application that helps users organize their dai
 
 - **Published application:** https://kalyakornw.github.io/web-development-1/PostItBoard/?utm_source=chatgpt.com
 - **GitHub repository:** https://github.com/kalyakornw/web-development-1
-- **Project video presentation:** To be added after recording.
+- **Project video presentation:** https://teams.microsoft.com/l/meetingrecap?driveId=b%218SqQKMUAiUaLx0xHs5_1fP4NKVlXBD5AhJ_4SgQ9xcHu9Ff0VPsqRrcxYQt-yl_N&driveItemId=01CR6EHEJQUCSCA2WFKBAJGSSM3RRRI5HD&sitePath=https%3A%2F%2Flaureauas-my.sharepoint.com%2Fpersonal%2Fkaw00022_laurea_fi%2FDocuments%2FTallenteet%2FMeeting+with+Kalyakorn+Worachat-20261027_184349-Meeting+Recording.mp4&fileUrl=https%3A%2F%2Flaureauas-my.sharepoint.com%2Fpersonal%2Fkaw00022_laurea_fi%2FDocuments%2FTallenteet%2FMeeting+with+Kalyakorn+Worachat-20261027_184349-Meeting+Recording.mp4&threadId=19%3Ameeting_NzRhMzlkZjUtYjYwZC00NzE1LTgwZGUtNGFlMjVkNDEwNzFi%40thread.v2&organizerId=ee46521e-9e7f-4404-9731-f39350f6a07d&tenantId=f0b9e9d7-8d66-4b16-9c1c-6b07c4796280&callId=d3461067-8d52-4720-8b51-88b9e8799899&threadType=Meeting&meetingType=MeetNow&subType=RecapSharingLink_RecapCore&recapType=RecordingAndTranscript
 
 ## About the application
 
