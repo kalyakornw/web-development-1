@@ -22,7 +22,7 @@ My Post-it Board is a simple web application that helps users organize their dai
 
 ## Web links
 
-- **Published application:** To be added after publishing.
+- **Published application:** https://kalyakornw.github.io/web-development-1/PostItBoard/?utm_source=chatgpt.com
 - **GitHub repository:** https://github.com/kalyakornw/web-development-1
 - **Project video presentation:** To be added after recording.
 
