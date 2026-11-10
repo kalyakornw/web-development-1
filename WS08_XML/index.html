@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Workshop 8 - Weather Explorer</title>
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <h1>Workshop 8: Parsing XML with JavaScript</h1>
+
+    <hr>
+
+    <h2>Weather Explorer</h2>
+
+    <p>Select a city from the list:</p>
+
+<select id="city">
+    <option value="Helsinki">Helsinki</option>
+    <option value="Stockholm">Stockholm</option>
+    <option value="Rome">Rome</option>
+    <option value="New York">New York</option>
+    <option value="Savonlinna">Savonlinna</option>
+</select>
+
+<button id="fetchWeather">Fetch data</button>
+
+<p>Or search for another city:</p>
+
+<input
+    type="text"
+    id="citysearch"
+    placeholder="Enter city name"
+>
+
+<button id="search">Search</button>
+
+
+    <div id="weatherdata">
+        Weather information will appear here.
+    </div>
+
+</body>
+</html>
