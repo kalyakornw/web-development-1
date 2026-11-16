@@ -168,7 +168,73 @@ document.addEventListener("DOMContentLoaded", function () {
     // =============================================
 
     // Your API key from this conversation
-    const weatherAPIKey = "3dea59f692a6075c73962afb5fd32401";
+    const weatherAPIKey = "4:33:19 PM: Failed during stage 'building site': Build script returned non-zero exit code: 2 (https://ntl.fyi/exit-code-2)
+4:33:19 PM: Netlify Build                                                 
+4:33:19 PM: ────────────────────────────────────────────────────────────────
+4:33:19 PM: ​
+4:33:19 PM: ❯ Version
+4:33:19 PM:   @netlify/build 37.7.6
+4:33:19 PM: ​
+4:33:19 PM: ❯ Flags
+4:33:19 PM:   accountId: 6a9e92051570809a66711ec9
+4:33:19 PM:   baseRelDir: true
+4:33:19 PM:   buildId: 6afb1422426725dfdee5fdae
+4:33:19 PM:   deployId: 6afb1422426725dfdee5fdb0
+4:33:19 PM:   serverDistDir: /tmp/server-6afb1422426725dfdee5fdb0
+4:33:19 PM: ​
+4:33:19 PM: ❯ Current directory
+4:33:19 PM:   /opt/build/repo
+4:33:19 PM: ​
+4:33:19 PM: ❯ Config file
+4:33:19 PM:   No config file was defined: using default values.
+4:33:19 PM: ​
+4:33:19 PM: ❯ Context
+4:33:19 PM:   production
+4:33:19 PM: ​
+4:33:19 PM: Functions bundling                                            
+4:33:19 PM: ────────────────────────────────────────────────────────────────
+4:33:19 PM: ​
+4:33:19 PM: Packaging Functions from Project2a_WeatherExplorer/netlify/functions directory:
+4:33:19 PM:  - weather.js
+4:33:19 PM: ​
+4:33:19 PM: ​
+4:33:19 PM: (Functions bundling completed in 132ms)
+4:33:19 PM: ​
+4:33:19 PM: Scanning for secrets in code and build output.                
+4:33:19 PM: ────────────────────────────────────────────────────────────────
+4:33:19 PM: ​
+4:33:19 PM: ​
+4:33:19 PM: ❯ Scanning complete. 43 file(s) scanned. Secrets scanning found 1 instance(s) of secrets in build output or repo code.
+4:33:19 PM: ​
+4:33:19 PM: Secret env var "OPENWEATHER_API_KEY"'s value detected:
+4:33:19 PM:   found value at line 171 in WS07_AJAX/ws7.js
+4:33:19 PM: ​
+4:33:19 PM: To prevent exposing secrets, the build will fail until these secret values are not found in build output or repo files.
+4:33:19 PM: ​
+4:33:19 PM: If these are expected, use SECRETS_SCAN_OMIT_PATHS, SECRETS_SCAN_OMIT_KEYS, or SECRETS_SCAN_ENABLED to prevent detecting.
+4:33:19 PM: ​
+4:33:19 PM: For more information on secrets scanning, see the Netlify Docs: https://ntl.fyi/configure-secrets-scanning
+4:33:19 PM: ​
+4:33:19 PM: Secrets scanning detected secrets in files during build.      
+4:33:19 PM: ────────────────────────────────────────────────────────────────
+4:33:19 PM: ​
+4:33:19 PM:   Error message
+4:33:19 PM:   Secrets scanning found secrets in build.
+4:33:19 PM: ​
+4:33:19 PM:   Resolved config
+4:33:19 PM:   build:
+4:33:19 PM:     environment:
+4:33:19 PM:       - OPENWEATHER_API_KEY
+4:33:19 PM:     publish: /opt/build/repo/Project2a_WeatherExplorer
+4:33:19 PM:     publishOrigin: ui
+4:33:19 PM:   functionsDirectory: /opt/build/repo/Project2a_WeatherExplorer/netlify/functions
+4:33:19 PM: Build failed due to a user error: Build script returned non-zero exit code: 2
+4:33:19 PM: Failing build: Failed to build site
+4:33:20 PM: Finished processing build request in 5.96s
+Deploying
+Skipped
+Cleanup
+Skipped";
 
     async function getWeather(cityName) {
         weatherdata.textContent =
