@@ -58,7 +58,7 @@ The AI-generated suggestions and code examples were reviewed, integrated, tested
 
 - **GitHub Repository:** (https://github.com/kalyakornw/web-development-1/tree/main/Project2a_WeatherExplorer)
 - **Live Website:** (https://weather-explorer-kalyakorn.netlify.app/)
-- **Presentation Video:** [Add your video link]
+- **Presentation Video:** (https://video.laurea.fi/media/0_tpasnh2h)
 
 ## 7. Self-Evaluation
 
