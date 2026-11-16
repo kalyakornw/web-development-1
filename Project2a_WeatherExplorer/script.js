@@ -7,7 +7,7 @@
 // OpenWeatherMap API key
 // Replace YOUR_API_KEY with your key for local testing.
 // Do not publish your real API key on GitHub.
-const API_KEY = "YOUR_API_KEY";
+
 
 // Get HTML elements
 const weatherData = document.getElementById("weatherdata");
@@ -37,7 +37,7 @@ function fetchWeather(city) {
     const xhr = new XMLHttpRequest();
 
     // Build the OpenWeatherMap API URL
-    const url = `https://api.openweathermap.org/data/2.5/weather?q=${encodeURIComponent(city)}&units=metric&mode=xml&appid=${API_KEY}`;
+    const url = `/.netlify/functions/weather?city=${encodeURIComponent(city)}`;
 
     // Send the request
     xhr.open("GET", url, true);
