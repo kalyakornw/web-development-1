@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Weather Explorer - Discover current weather conditions around the world.">
+    <title>Weather Explorer | A Study of the Sky</title>
+
+    <!-- Connect the CSS stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Connect the JavaScript file -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Main page header -->
+    <header class="site-header">
+        <div class="logo">
+            WEATHER<span>EXPLORER</span>
+        </div>
+
+        <p class="header-note">A STUDY OF THE SKY</p>
+    </header>
+
+    <!-- Main content -->
+    <main class="container">
+
+        <!-- Introduction -->
+        <section class="intro">
+            <p class="eyebrow">YOUR DAILY WEATHER JOURNAL</p>
+            <h1>Discover the weather<br>around the world.</h1>
+            <p class="intro-text">
+                Explore current weather conditions in cities around the world.
+            </p>
+        </section>
+
+        <!-- City search section -->
+        <section class="search-section">
+            <label for="cityInput">SEARCH FOR A CITY</label>
+
+            <div class="search-controls">
+                <input
+                    type="text"
+                    id="cityInput"
+                    placeholder="Enter a city name..."
+                >
+
+                <button id="searchButton" type="button">
+                    Search
+                </button>
+            </div>
+
+            <p class="search-hint">Or choose one of our suggested cities:</p>
+
+            <select id="citySelect">
+                <option value="">Choose a city</option>
+                <option value="Helsinki">Helsinki</option>
+                <option value="Stockholm">Stockholm</option>
+                <option value="London">London</option>
+                <option value="Paris">Paris</option>
+                <option value="Bangkok">Bangkok</option>
+                <option value="Rome">Rome</option>
+            </select>
+        </section>
+
+        <!-- Weather results -->
+        <section class="weather-section" id="weatherdata">
+
+            <div class="weather-placeholder">
+                <p>YOUR WEATHER REPORT</p>
+                <h2>Waiting for your destination</h2>
+                <p>Search for a city to discover its current weather.</p>
+            </div>
+
+        </section>
+
+        <!-- Footer -->
+        <footer class="site-footer">
+            <p>WEATHER EXPLORER · A STUDY OF THE SKY</p>
+            <p>Weather information powered by OpenWeatherMap.</p>
+        </footer>
+
+    </main>
+
+</body>
+</html>
